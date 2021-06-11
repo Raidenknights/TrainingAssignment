@@ -16,5 +16,13 @@ Objectives:
  3.Now open the main program named UserServiceApplication and run as Java Application.
  4.Now go to localhost:8000 and test the application.
  
+ 5.to test H2 database open localhost:8000/H2-console
+ 6.An UI will open up click on connect at the bottom .
+ 7.A new page will open up there will be a table present with name UserModel
+ 8. if you will insert value there then run the select * from UserModel command it will display all the records.
+ 
+ Note: H2 database is a in-memory database and wont save any data permanently so if you restart the server data will be lost.
+ 
+ 
  
  
